@@ -1,8 +1,8 @@
-jsWaterfall
+jsGeometryWarsGrid
 =======
 
-Flow Game Prototype
+Geometry Wars Grid Simulation
 
 Try it out here:
 
-http://jefflutzenberger.github.io/jsFlowGame/
+http://jefflutzenberger.github.io/jsGeometryWarsGrid/
