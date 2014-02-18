@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="author" content="Jeff Lutzenberger" />
-    <meta name="description" content="Flow game protype" />
+    <meta name="description" content="GeometryWars Grid" />
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <style type="text/css">
         body {
@@ -15,7 +15,7 @@
           /*text-align: center;*/
         }
     </style>    
-    <title>Flow Game</title>
+    <title>GeometryWars Grid</title>
 
     <!--<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
@@ -24,29 +24,12 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
 
     <script type="text/javascript" charset="utf-8" src="base/vector.js"></script>
-    <script type="text/javascript" charset="utf-8" src="base/particle.js"></script>
     <script type="text/javascript" charset="utf-8" src="base/grid.js"></script>
-    <script type="text/javascript" charset="utf-8" src="base/primitives.js"></script>
     <script type="text/javascript" charset="utf-8" src="base/canvas.js"></script>
     <script type="text/javascript" charset="utf-8" src="gameobjects/gameobjects.js"></script>
     <script type="text/javascript" charset="utf-8" src="gameobjects/influencer.js"></script>
-    <script type="text/javascript" charset="utf-8" src="gameobjects/sink.js"></script>
-    <script type="text/javascript" charset="utf-8" src="gameobjects/source.js"></script>
-    <script type="text/javascript" charset="utf-8" src="gameobjects/star.js"></script>
-    <script type="text/javascript" charset="utf-8" src="levels.js"></script>
-    <script type="text/javascript" charset="utf-8" src="levels/level3.js"></script>
-    <script type="text/javascript" charset="utf-8" src="levels/level4.js"></script>
-    <script type="text/javascript" charset="utf-8" src="levels/awesomelevel.js"></script>
-    <script type="text/javascript" charset="utf-8" src="base/levelloader.js"></script>
-    <script type="text/javascript" charset="utf-8" src="effects/blur.js"></script>
-    <script type="text/javascript" charset="utf-8" src="effects/traileffect.js"></script>
-    <script type="text/javascript" charset="utf-8" src="effects/backgroundeffect.js"></script>
-    <script type="text/javascript" charset="utf-8" src="effects/nebula.js"></script>
-    <script type="text/javascript" charset="utf-8" src="effects/starfield.js"></script>
-    <script type="text/javascript" charset="utf-8" src="base/waterfall.js"></script>
     <script type="text/javascript" charset="utf-8" src="pages/editorui.js"></script>
-    <script type="text/javascript" charset="utf-8" src="pages/gameboardpage.js"></script>
-    <script type="text/javascript" charset="utf-8" src="pages/particlesimpage.js"></script>
+    <script type="text/javascript" charset="utf-8" src="pages/gridpage.js"></script>
     <script type="text/javascript" charset="utf-8" src="gamecontroller.js"></script>
     <script type="text/javascript" charset="utf-8" src="main.js"></script>
 </head>
@@ -59,12 +42,11 @@
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Flow Game Prototype</a>
+          <a class="navbar-brand" href="#">GeometryWars Grid</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active" id="main-menu-button"><a href="#">Main Menu</a></li>
-            <li id="particle-sim-button"><a href="#particlesim">Particle Sim</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
